@@ -18,42 +18,47 @@ Room Availability: Allows users to view and select rooms for their chosen dates.
 
 1. Clone the Repository
 To clone the repository to your local machine, run:
-```bash
+```
 git clone <repository-url>
-
+```
 Replace <repository-url> with the actual URL of this repository.
 
 2. Install Dependencies
 This project uses Node.js for dependency management. Follow these steps:
-
 Ensure you have Node.js installed on your system.
 Navigate to the project directory in your terminal.
 Install the required dependencies by running:
 
+```
 npm install
+```
 If you're not running tests or don't require Node.js features, you can skip this step and proceed to running the project.
 
-## ▶️ How to Run
+## How to Run
 To view the project, simply open the index.html file in your browser. It will launch the application and allow you to:
-
 Interact with the calendar.
 Check hotel availability and pricing.
 View room details in a modal popup.
 No additional server setup is required!
 
 
-## 🧪 Running Unit Tests
+## Running Unit Tests
 This project includes Jest tests for its functionality. To run the tests:
 
 Ensure Jest is installed in the project:
-
+```
 npm install --save-dev jest
+```
 Run tests for app.js:
-
+```
 npx jest tests/app.test.js
-Run tests for quote.js:
+```
 
+Run tests for quote.js:
+```
 npx jest tests/quote.test.js
+```
+
 Unit tests will verify core functionality like event listeners, API handling, and UI updates.
 
 ## API Endpoints Used
