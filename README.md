@@ -62,15 +62,15 @@ npx jest tests/quote.test.js
 Unit tests will verify core functionality like event listeners, API handling, and UI updates.
 
 ## API Endpoints Used
-- ** Availability Data:
+- Availability Data:
 https://api.travelcircus.net/hotels/15823/checkins?E&party=%7B%22adults%22:2,%22children%22:%5B%5D%7D&domain=de&date_start={start_date}&date_end={end_date}
 
-- ** Room Details:
+- Room Details:
 https://api.travelcircus.net/hotels/15823/quotes?locale=de_DE&checkin={checkin_date}&checkout={checkout_date}&party=%7B%22adults%22:2,%22children%22:[]%7D&domain=de
 
 ## Technology Stack
-- ** HTML5: Markup structure.
-- ** CSS3: Basic styling.
-- ** Vanilla JavaScript: Main functionality (no frameworks).
-- ** Flatpickr: Used for calendar rendering.
+- HTML5: Markup structure.
+- CSS3: Basic styling.
+- Vanilla JavaScript: Main functionality (no frameworks).
+- Flatpickr: Used for calendar rendering.
 
