@@ -18,7 +18,7 @@ Room Availability: Allows users to view and select rooms for their chosen dates.
 
 1. Clone the Repository
 To clone the repository to your local machine, run:
-
+```bash
 git clone <repository-url>
 
 Replace <repository-url> with the actual URL of this repository.
